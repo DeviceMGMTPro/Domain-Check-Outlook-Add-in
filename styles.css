@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #0078d4; /* Outlook theme color */
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+}
