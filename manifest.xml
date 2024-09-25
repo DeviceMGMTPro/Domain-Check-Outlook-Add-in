@@ -7,17 +7,16 @@
 
     <Id>6654a4ec-74aa-4773-b5f8-38b1e9f0bde9</Id>
     <Version>1.0.0.0</Version>
-    <ProviderName>AVASOFT</ProviderName>
+    <ProviderName>DeviceMGMTPro</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="MultipleDomainCheckAddIn" />
     <Description DefaultValue="This add-in checks if recipients contain two or more domains of email recipients before sending."/>
-    <IconUrl DefaultValue="https://effd-106-219-176-212.ngrok-free.app/assets/icon-64.png" />
-    <HighResolutionIconUrl DefaultValue="https://effd-106-219-176-212.ngrok-free.app/assets/icon-128.png"/>
+    <IconUrl DefaultValue="https://devicemgmtpro.com/assets/icon-64.png" />
+    <HighResolutionIconUrl DefaultValue="https://devicemgmtpro.com/assets/icon-128.png"/>
     <SupportUrl DefaultValue="https://youtu.be/AiD6SOOBKZI?si=KZs5s92sfGsQ_OHl" />
 
     <AppDomains>
-        <AppDomain>avasoft.com</AppDomain>
-        <AppDomain>anotherdomain.com</AppDomain>
+        <AppDomain>devicemgmtpro.com</AppDomain>
     </AppDomains>
 
     <Hosts>
@@ -32,7 +31,7 @@
     <FormSettings>
         <Form xsi:type="ItemRead">
             <DesktopSettings>
-                <SourceLocation DefaultValue="https://effd-106-219-176-212.ngrok-free.app/index.html"/>
+                <SourceLocation DefaultValue="https://devicemgmtpro.com/index.html"/>
                 <RequestedHeight>250</RequestedHeight>
             </DesktopSettings>
         </Form>
@@ -68,7 +67,7 @@
 
         <Resources>
             <Script>
-                <SourceLocation resid="checkDomains.js" />
+                <SourceLocation resid="https://devicemgmtpro.com/checkDomains.js" />
             </Script>
         </Resources>
     </VersionOverrides>
